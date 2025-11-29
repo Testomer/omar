@@ -1,0 +1,31 @@
+{
+  "site": {
+    "title": "OMAR AI Studio",
+    "subtitle": "Autonomous AI Agent Portfolio — Powered by Gemini 2.5 Flash (simulated)"
+  },
+  "projects": [
+    {
+      "id": "alpha-warehouse",
+      "title": "Alpha Warehouse Automation",
+      "summary": "End-to-end logistics automation using simulated multi-agent orchestration.",
+      "tags": ["Automation", "Robotics", "Data"],
+      "groundingLog": [
+        { "query": "warehouse robotics throughput optimization", "source": "arxiv.org/1234" },
+        { "query": "ML scheduling algorithms for pick-and-pack", "source": "example.com/article" }
+      ],
+      "factCheck": "High Confidence (Gemini Grounded)",
+      "metrics": { "efficiency": 78, "errorRate": 2.4 }
+    },
+    {
+      "id": "market-insights",
+      "title": "Market Insights Dashboard",
+      "summary": "Real-time market research pipeline with automated data grounding and visualization.",
+      "tags": ["Research", "Visualization"],
+      "groundingLog": [ { "query": "Q3 fintech adoption rates 2025", "source": "worldbank.org/report" } ],
+      "factCheck": "High Confidence (Gemini Grounded)",
+      "metrics": { "sentiment": 64, "coverage": 98 }
+    }
+  ],
+  "experience": [ { "company": "Omar Labs", "role": "Lead Agent Architect", "years": "2022-Now" } ],
+  "skills": ["Agent Design", "Data Engineering", "Automation", "Frontend"]
+}
